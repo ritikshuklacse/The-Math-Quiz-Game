@@ -18,20 +18,26 @@ int main()
     {
     j=0;
     score=0;
-        cout<<"Welcome to";
-        cout<<" MATH QUIZ GAME!";
-        cout<<"\n\n=========================\n\nPlease enter your name : ";<<endl;
-        cin>>FF;
-        cout<<"\n\n=========================\n\nHello "<<FF<<" !\n\n";
-        Beep(0,700);
-        for (int a=5; a>0 ; a--)
-        {
-            cout<<"\rGet ready to play in :  "<<a;
-            Beep(2000,300);Beep(0,700);
-        }
-        cout<<"\r=========================\n\n";
-        Beep(0,500);
-        }
+       /* Introduction : */
+	{
+	Beep(0,300);Beep(2000,100);
+	cout<<"Welcome to";
+	Beep(0,600);
+	cout<<" MATH QUIZ GAME!                                           ";
+	Beep(2000,100);Beep(1500,100);Beep(2000,100);Beep(1500,100);Beep(2000,700);Beep(0,400);
+	cout<<"\n\n=========================\n\nPleas enter your name : ";
+	cin>>FF;
+	cout<<"\n\n=========================\n\nHello "<<FF<<" !\n\n";
+	Beep(0,700);
+	for (int a=5; a>0 ; a--)
+	{
+		cout<<"\rGet ready to play in :  "<<a;
+    	Beep(2000,300);Beep(0,700);
+	}
+    cout<<"\r=========================\n\n";
+    Beep(0,500);
+	}
+
     /* Level 1 */
         {
             cout << "LEVEL 1 : Adding Quiz ( YOU HAVE ONLY 5 SECONDS TO SOLVE EACH QUESTION )\n------------------------------------\n\n";
