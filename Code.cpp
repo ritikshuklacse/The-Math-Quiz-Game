@@ -21,14 +21,7 @@ int main()
         cout<<"Welcome to";
         cout<<" MATH QUIZ GAME!";
         cout<<"\n\n=========================\n\nPlease enter your name : ";<<endl;
-        cout<<"Or type Quit to exit"<<endl;
         cin>>FF;
-        if(FF=="Quit"){
-            break;
-    /* Introduction : */
-        {
-
-        }
         cout<<"\n\n=========================\n\nHello "<<FF<<" !\n\n";
         Beep(0,700);
         for (int a=5; a>0 ; a--)
